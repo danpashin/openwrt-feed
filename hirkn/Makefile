@@ -9,7 +9,7 @@ PKG_MAINTAINER:=danpashin <danypashin@yandex.ru>
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/danpashin/hirkn/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=76e3d2834530a2852fbbb2493803c28b88df65c45b50f7a6cb5bb058dec077d5
+PKG_HASH:=4c09558fe619c08f434f170b6dffd462f69ee48718c28a5a421b704899c5d53f
 
 PKG_BUILD_DEPENDS:=rust/host openssl
 
