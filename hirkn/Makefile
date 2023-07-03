@@ -5,7 +5,7 @@ PKG_VERSION:=0.1.0
 PKG_RELEASE:=1
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
-PKG_MAINTAINER:=danpashin <danpashin@yandex.ru>
+PKG_MAINTAINER:=danpashin <danypashin@yandex.ru>
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/danpashin/hirkn/tar.gz/v$(PKG_VERSION)?
