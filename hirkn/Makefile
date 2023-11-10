@@ -1,7 +1,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=hirkn
-PKG_VERSION:=0.1.0
+PKG_VERSION:=0.2.0
 PKG_RELEASE:=1
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
@@ -9,7 +9,7 @@ PKG_MAINTAINER:=danpashin <danypashin@yandex.ru>
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/danpashin/hirkn/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=4c09558fe619c08f434f170b6dffd462f69ee48718c28a5a421b704899c5d53f
+PKG_HASH:=bab6195e6cc90ea6b9f2973440746e97604dd12618b26f94b53c75b9d812b894
 
 PKG_BUILD_DEPENDS:=rust/host openssl
 
